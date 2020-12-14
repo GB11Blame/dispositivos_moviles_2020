@@ -14,26 +14,29 @@
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 
-                <li class="active"><a href="#">Cotizaciones</a></li>
-                <!-- ELEMENTOS INDIVIDUALES DEL MENÚ
-                <li><a href="#">Cotizaciones</a></li>
-                 -->
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Cotizaciones<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="cotizacion_inicia.php">Agregar una Cotizacion</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                    </li>
                  <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Proveedores<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Agregar un Proveedor</a></li>
-                        <li><a href="#">Agregar una sucursal</a></li>
+                        <li><a href="proveedor_registrar.php">Agregar un Proveedor</a></li>
+                        <li><a href="sucursal_registrar.php">"Agregar una sucursal</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Gestionar Proveedores</a></li>
+                        <li><a href="ver_marcas.php">Gestionar Proveedores</a></li>
                     </ul>
                 </li>
                  
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Refacciones<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Agregar una refacci&oacute;n</a></li>
+                        <li><a href="refacciones_agregar.php">Agregar una refacci&oacute;n</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Consulta rápida</a></li>
+                        <li><a href="seleccionar_refaccion.php">Consulta rápida</a></li>
                     </ul>
                 </li>
             
@@ -47,7 +50,7 @@
                 </div>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Login</a></li>
+                <li><a href="login.php">Login</a></li>
             </ul>
         </div>
     </nav>
